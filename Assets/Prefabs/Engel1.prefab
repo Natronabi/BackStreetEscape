@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 7631572039075185720}
   - component: {fileID: 3580707050960269157}
   - component: {fileID: 7749059752045463320}
+  - component: {fileID: 7759447286371166487}
   m_Layer: 0
   m_Name: Props_5a
   m_TagString: Untagged
@@ -221,3 +222,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.19651684, y: 0.7252513, z: 4.6274023}
   m_Center: {x: 0.00083291787, y: -0.00000007012311, z: -1.897602e-18}
+--- !u!114 &7759447286371166487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7418022903911291201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bbb206ec4ccadd4a9205767c5b6dfef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EngelManager
