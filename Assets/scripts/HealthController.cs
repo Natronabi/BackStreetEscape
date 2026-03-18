@@ -3,6 +3,7 @@ using UnityEngine;
 public class HealthController : MonoBehaviour
 {
     public int MaxHealth = 100;
+    public int toplamPuan = 0;
     public int CurrentHealth;
     private void Start()
     {
@@ -19,6 +20,10 @@ public class HealthController : MonoBehaviour
             Debug.Log("Karakter öldü!");
             // Karakterin ölme işlemlerini burada gerçekleştirin
         }
+    }
+    public void PuanArttir(int puanMiktari)
+    {
+        toplamPuan += puanMiktari;
     }
 }
     
